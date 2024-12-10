@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="TIP1">Tip Calculator</h1>
+    <form onsubmit="TipCal(); return false;" >
+
+        <label for="tipPercent">Tip Percent (%)</label>
+        <input type="number" name="tipPercent" placeholder="Enter Tip Percentage" id="TP1" required>
+        &nbsp;
+        <label for="totalAmount">Total Amount</label>
+        <input type="number" name="totalAmount" placeholder="Enter Total Amount" id="TA1" required>
+        &nbsp;
+        <button type="submit" onclick="TipCal()">Get Results</button>
+    </form>
+    <script src="./index.js"></script>
+</body>
+</html>

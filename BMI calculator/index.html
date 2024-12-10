@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="BMI1">BMI Calculator</h1>
+    <form onsubmit="BMICal(); return false;">
+        <label for="Weight1">Weight (kgs)</label>
+        <input type="number" name="Weight1" placeholder="Enter Your Weight" id="WEI1" required>
+        &nbsp;
+        <label for="Height1"> Height (m)</label>
+        <input type="number" name="Height1" placeholder="Enter Your Height" id="HEI1" required>
+        &nbsp;
+        <button type="submit" onclick="BMICal()">Get Results</button>
+    </form>
+    <script src="./index.js"></script>
+</body>
+</html>

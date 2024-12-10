@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="FE ">Fuel Efficiency Calculator</h1>
+    <form onsubmit="FUELEFFICIENCY (); return false;">
+    <label for="milesdriven">Miles Driven</label>
+    <input type="number" name="milesdriven" placeholder="Enter Miles Driven" id="MD1" required>
+    &nbsp;
+    <label for="gallonsOfGas">Gallons Of Gas</label>
+    <input type="number"name="gallonsOfGas" placeholder="Enter Gallon Of Gas" id="GS1" required>
+    &nbsp;
+    <button type="submit" onclick="FUELEFFICIENCY ()">Click Here</button>
+
+    <h4>You can also put the values like: 'Liters Of Fuel / Kilometers driven', to get te results in LPK</h4>
+    </form>
+    <script src="./index.js"></script>
+</body>
+</html>
